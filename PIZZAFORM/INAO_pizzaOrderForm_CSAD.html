@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html  lang="en">
+<head>
+    <meta charset="utf-8" >
+    <title>Fill up form</title>
+	<link rel="stylesheet" type="text/css" href="INAO_IMAGES_CSAD/StyleSheet.css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+    <!-- Inao, Kenneth Aedrianne -->
+    <!-- 3-10-21 -->
+	<div class="head">
+	</div>
+	<table>
+	<form method="post" action="">
+		<thead>
+			<tr>
+				<th style="text-align:center;" class="head" colspan="4">Customer Info</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><label for="name">Complete Name:</label></td>
+				<td></td><td></td>
+				<td><input type="text" name="name" size="40" placeholder="Name" maxlength="40"></td>
+			</tr>
+			<tr>
+				<td><label for="address">Address:</label></td>
+				<td></td><td></td>
+				<td><input type="text" name="address" size="40" placeholder="Address" maxlength="40"></td>
+			</tr>
+			<tr>
+				<td><label for="contact">Contact Number:</label></td>
+				<td></td><td></td>
+				<td><input type="text" name="contact" size="40" placeholder="09#########" maxlength="40"></td>
+			</tr>
+			<tr>
+				<td><label for="email">Email Address:</label></td>
+				<td></td><td></td>
+				<td><input type="text" name="email" size="40" placeholder="asd@yahoo.com" maxlength="40"></td>
+			</tr>
+			<tr>
+				<td><label for="landmark">Landmark:</label></td>
+				<td></td><td></td>
+				<td><input type="text" name="landmark" size="40" placeholder="SM, Bridge, etc." maxlength="40"></td>
+			</tr>
+		</tbody>
+			<tr><td></td></tr>
+		<thead>
+			<tr>
+				<th style="text-align:center;" class="head" colspan="4">Order Info</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td><td><label for="burger"><b>Burger</b></label></td>
+			</tr>
+			<tr>
+				<td><label for="burger">Patty:</label></td>
+				<td>
+					<input type="radio" id="single" name="burger" value="single">
+					<label for="single">Single Patty</label><br>
+					<input type="radio" id="double" name="burger" value="double">
+					<label for="double">Double Patty</label><br>
+				</td>
+				<td></td>
+				<td>
+					<input type="checkbox" value="cheese">Cheese</input>
+					<input type="checkbox"  value="coleslaw">Coleslaw</input><br>
+					<input type="checkbox"  value="tomato">Tomato</input>
+					<input type="checkbox"  value="onion">Onion</input><br>
+					<input type="checkbox"  value="cucumber">Cucumber</input>
+					<input type="checkbox"  value="bacon">Bacon</input>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="bun">Type of bun:</label></td>
+				<td><select name="bun" id="bun" size="1">
+					<option value="none">Select type of bun</option>
+					<option value="white">White Bun</option>
+					<option value="wheat">Wheat Bun</option>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="quantityburger">Quantity:</label></td>
+				<td><input type="text" name="quantityburger" size="3" placeholder="0" maxlength="2"></td>
+			</tr>
+			<tr></tr><tr></tr><tr></tr><tr></tr>
+			<tr>
+				<td></td><td><label for="pasta"><b>Pasta</b></label></td>
+			</tr>
+			<tr>
+				<td><label for="sauce">Type of sauce:</label></td>
+				<td><select name="sauce" id="sauce" size="1">
+					<option value="none">Select type of sauce</option>
+					<option value="carbonara">Carbonara</option>
+					<option value="pesto">Pesto</option>
+					<option value="spaghetti">Spaghetti</option>
+				</td>
+				<td></td>
+				<td>
+					<input type="checkbox" value="extracheese">Extra cheese</input>
+					<input type="checkbox" value="extrasauce">Extra sauce</input><br>
+					<input type="text" name="otherextra" size="20" placeholder="Other extra"></input>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="quantitypasta">Quantity:</label></td>
+				<td><input type="text" name="quantitypasta" size="3" placeholder="0" maxlength="2"></td>
+			</tr>
+			<tr></tr><tr></tr><tr></tr><tr></tr>
+			<tr>
+				<td></td><td><label for="pasta"><b>Fries</b></label></td>
+			</tr>
+			<tr>
+				<td><label for="fries">Size:</label></td>
+				<td><select name="fries" id="fries" size="1">
+					<option value="small">Small</option>
+					<option value="regular">Regular</option>	
+					<option value="large">Large</option>
+				</td>
+				<td><label for="fries">Flavor:</label></td>
+				<td><select name="fries" id="fries" size="1">
+					<option value="cheesefries">Cheese</option>
+					<option value="bbq">BBQ</option>	
+					<option value="sourcream">Sour & Cream</option>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="quantity">Quantity:</label></td>
+				<td><input type="text" name="quantityfries" size="3" placeholder="0" maxlength="2"></td>
+			</tr>
+			<tr></tr><tr></tr><tr></tr><tr></tr>
+			<tr>
+				<td></td><td><label for="drinks"><b>Drinks</b></label></td>
+			</tr>
+			<tr>
+				<td><label for="drinks">Type:</label></td>
+				<td><input type="text" name="drinks" size="20" placeholder="Coke" maxlength="15"></td>
+				<td><label for="drinks">Size:</label></td>
+				<td><select name="drinks" id="drinks" size="1">
+					<option value="small">Small</option>
+					<option value="regular">Regular</option>	
+					<option value="large">Large</option>
+				</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th style="text-align:center;" class="head" colspan="4">Transaction Method</th>
+			</tr>
+			<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>	
+			<tr>
+				<td><label for="transaction">Method of Transaction:</label></td>
+				<td><select name="transaction" id="transaction" size="1">
+					<option value="none">Select type of transaction</option>
+					<option value="delivery">Delivery</option>
+					<option value="pickup">Pick-up</option>
+				</td><td></td>
+				<th><input type="submit" id="submitbtn" value="Submit Order"></th>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td>
+				<th><input type="submit" id="clearbtn" value="Clear"></th>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
+
+
+
+
